@@ -3,6 +3,7 @@
         <title>Definitions</title>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
         <script src="alert.js" type="text/javascript"></script>
+        <link href="format.css" type="text/css" rel="stylesheet">
     </head>
      
     <body>
@@ -23,13 +24,14 @@
         
         <div class="form">
             <br>
-            <h2> Look up the definition of a word from the following list: ajax, html, php, css, javascript, bar, definition.</h2>
+            <h4 style="color:#12177E;"> Look up the definition of a word from the following list: ajax, html, php, css, javascript, bar, definition.</h4>
             <input type="text" id="query"/>
-            <input type="submit" value="Search" id="search"/>
-            <link href="format.css" type="text/css" rel="stylesheet">
+            <input class="button" type="submit" value="Search" id="search"/>
+            <input class="button" type="submit" value="Get All Definitions" id="searchall"/>
+            
             <br>
-            <h2> <solid>Result</solid></h2>
-            <div id="result"></div>
+            <h2 style="color:#12177E;"> <solid>Result</solid></h2>
+            <div style="color:#12177E;"id="result"></div>
         </div>
         
     </body>
